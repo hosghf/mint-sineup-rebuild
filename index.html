@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html charset="UTF-8">
+<head>
+    <!--[if lt IE 9]>
+		<script>
+  		var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+    	"figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+    	"progress,section,time,video").split(',');
+  		for (var i = 0; i < e.length; i++) {
+   		 document.createElement(e[i]);
+  		}
+		</script>
+	<![endif]-->
+	<title>mint-rebuild-sineup</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<nav id="main-nav" >
+		<img src="mint.png" class="nav-el"></img>
+		<div id="btn-sign" class="nav-el">
+			<a href="#" id="signup-link" ><strong>Sign up</strong></a>
+			<a href="#" id="login-link">Log in</a>
+		</div>
+	</nav>
+
+	<section id="main-div">
+		<div id="form-container">
+			<h1>See all your finances in one place</h1>
+			<form action="#" method="post">
+			<fieldset>
+
+				<label class="label-f" for="email"> Your Email</label>
+				<input type="email" name="email" id="email" class="text-input">
+
+				<label class="label-f" for="cemail">Confirm Email </label>
+				<input type="email" name="cemail" id="cemail" class="text-input">
+
+				<label class="label-f" for="phone">Your Phone(recommended) </label>
+				<input type="tel" name="tel" id="phone" class="text-input">
+	
+
+				<label class="label-f" for="pass"> Password </label>
+				<input type="password" name="password" id="pass" class="text-input">
+
+				<label class="label-f" for="cpass"> Confirm Password </label>
+				<input type="password" name="password" id="cpass" class="text-input">
+				
+			    <input type="checkbox" id="chk-input" class="check-input"> 
+				<label for="chk-input" class="check-input"> Remember me</label>
+
+			</fieldset>
+			
+			<button id="sineup-btn">SIGN UP</button>
+			<p>By clicking Sign Up you agree to our Terms of Use and Privacy Statement</p>
+			</form>
+		</div>
+
+		<div id="list-container">
+			<h2>Why you'll love it</h2>
+			<ul>
+				<li>See all your accounts in one place
+				<li>Find the best ways to grow your money
+				<li>Stay <a href="#">safe and secure</a>
+			</ul>
+		</div>
+
+	</section>
+	<footer>
+		<ul id="link-ul">
+			<li><a href="#">Support</a>
+			<li><a href="#">Terms of Use</a>
+			<li><a href="#">Privacy</a>
+			<li><a href="#">Legal and Trademark Notices</a>
+			<li><a href="#">About Intuit</a>
+		</ul>
+		<p>Mint bill pay services provided by Intuit Payments Inc. under applicable licenses.</p>
+		<ul id="img-ul">
+			<li><a href="#"><img src="vseal.gif"></img></a>
+			<li><a href="#"><img src="truste-seal.png"></img></a>
+		</ul>
+		<p id="copy-right">© 2017 Intuit, Inc.  |  ph7688.5 - spa104.6</p>
+	</footer>
+</body>
+
+</html>

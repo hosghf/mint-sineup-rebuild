@@ -1,0 +1,143 @@
+body {
+	margin-top: 160px;
+	font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+nav, section, footer {
+	margin: 0 auto;
+	width: 800px;
+}
+#main-nav {
+	background: #fff;
+	height: 50px;
+}
+#main-nav img{
+	display: inline-block;
+	float: left;
+	width: 120px;
+	margin-top: 0;
+}
+.nav-el {
+	margin-top: 20px;
+}
+#main-nav #btn-sign {
+	display: inline-block;
+	width: 155px;
+	float: right;
+}
+#main-nav #btn-sign a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 7px;
+}
+#main-nav #btn-sign #signup-link{
+	border-right: 1px solid #aaa;
+	padding-right: 8px;
+}
+
+/*section start here */
+#main-div {
+	height: 800px;
+	margin-bottom: 80px;
+	border: 1px solid #d8d8d8;
+	box-shadow: 0 3px 10px #a8a8a8 ;
+}
+#main-div h1{
+	font-size: 25px;
+}
+#main-div #form-container p, footer p {
+	font-size: 13px;
+	color: #a8a8a8;
+}
+#main-div #form-container {
+	width: 450px;
+	background: #fff;
+	display: inline-block;
+	float: left;
+	margin: 45px 10px 0 45px;
+}
+ .text-input {
+	display: block;
+	margin:10px 0 20px 0;
+	width: 300px;
+	padding: 9px;
+	border-radius: 4px;
+	border: 1px solid #e2e2e2;
+}
+.label-f {
+	display: block;
+	margin: 30px 0 15px 0;
+}
+#sineup-btn {
+	margin:10px 0 12px 0;
+	padding: 9px 20px;
+	background: #11aabb;
+	border-style: none;
+	border-radius: 3px;
+	color: #fefefe;
+}
+#form-container #chk-input{
+	margin:10px 0 20px 0;
+	height: 20px;
+	width: 20px;
+}
+.check-input {
+	vertical-align: middle;
+}
+
+/* list here */
+#main-div #list-container{
+	width: 200px;
+	height: 500px;
+	display: inline-block;
+	float: right;
+	margin: 45px 35px 0 0;
+	border-left: 1px solid #ccc;
+}
+#main-div #list-container h2, ul {
+	margin: 0 0 0 25px;
+}
+#list-container ul li {
+	color: #aaa;
+	padding: 8px 0;
+	font-size: 13px;
+}
+#list-container ul {
+	margin-top: 10px;
+}
+
+/* footer start here */
+
+footer #link-ul {
+	margin: 0 0 40px 34px;
+}
+footer #link-ul li {
+	display: inline-block;
+	margin: 0 0 0 25px;
+	border-right: 1px solid #999;
+	padding-right: 25px;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #8a8a8a;
+	font-size: 14px;
+}
+footer #link-ul li:last-child {
+	border: none;
+}
+footer p{
+	width: 550px;
+	margin: 70px auto;
+}
+footer #img-ul {
+	width: 300px;
+	margin: 60px auto;
+}
+footer #img-ul li{
+	display: inline-block;
+	margin: 20px 10px ;
+	vertical-align: middle;
+}
+#copy-right {
+	width: 270px;
+	margin-top: 12px;
+}
